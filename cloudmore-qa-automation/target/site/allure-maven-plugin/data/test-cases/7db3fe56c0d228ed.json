@@ -1,0 +1,180 @@
+{
+  "uid" : "7db3fe56c0d228ed",
+  "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Is_NotObject",
+  "fullName" : "Verify The CREATE , UPDATE, GET, DELETE APIs of User Service: Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Is_NotObject",
+  "historyId" : "93cfb7493aa1074f6ded138ea7f64da4",
+  "time" : {
+    "start" : 1676886145187,
+    "stop" : 1676886146603,
+    "duration" : 1416
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "void com.cloudmore.testSteps.CommonSteps.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1676886145188,
+      "stop" : 1676886145189,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User Invoke the \"UPDATE\" User API service to execute the \"putUser_valid_Username_BodyApplicationJsonType_Is_NotObject\" test scenario",
+      "time" : {
+        "start" : 1676886145189,
+        "stop" : 1676886146579,
+        "duration" : 1390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Validate the Response Status Code",
+      "time" : {
+        "start" : 1676886146580,
+        "stop" : 1676886146581,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Validate the response json schema",
+      "time" : {
+        "start" : 1676886146582,
+        "stop" : 1676886146599,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Validate the Response Body",
+      "time" : {
+        "start" : 1676886146600,
+        "stop" : 1676886146602,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "void com.cloudmore.testSteps.CommonSteps.afterScenario()",
+    "time" : {
+      "start" : 1676886146602,
+      "stop" : 1676886146603,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "API"
+  }, {
+    "name" : "tag",
+    "value" : "QuestionThree"
+  }, {
+    "name" : "tag",
+    "value" : "assignment"
+  }, {
+    "name" : "tag",
+    "value" : "updateUserAPI"
+  }, {
+    "name" : "tag",
+    "value" : "API"
+  }, {
+    "name" : "host",
+    "value" : "CLSLLP210006"
+  }, {
+    "name" : "thread",
+    "value" : "23016@CLSLLP210006.TestNG-tests-1(18)"
+  }, {
+    "name" : "feature",
+    "value" : "Verify The CREATE , UPDATE, GET, DELETE APIs of User Service"
+  }, {
+    "name" : "story",
+    "value" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Is_NotObject"
+  }, {
+    "name" : "suite",
+    "value" : "Verify The CREATE , UPDATE, GET, DELETE APIs of User Service"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Is_NotObject"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Personal.work/my-repos/cloudmore/cloudmore-qa-automation/src/test/resources/featureFiles/UserServiceAPI.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.featureFiles.UserServiceAPI_feature.Verify The CREATE , UPDATE, GET, DELETE APIs of User Service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "TEST_SCENARIO_NAME",
+    "value" : "putUser_valid_Username_BodyApplicationJsonType_Is_NotObject"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "assignment", "updateUserAPI", "API", "QuestionThree" ]
+  },
+  "source" : "7db3fe56c0d228ed.json",
+  "parameterValues" : [ "putUser_valid_Username_BodyApplicationJsonType_Is_NotObject" ]
+}

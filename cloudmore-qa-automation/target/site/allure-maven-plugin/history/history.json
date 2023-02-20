@@ -1,0 +1,546 @@
+{
+  "93cfb7493aa1074f6ded138ea7f64da4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7db3fe56c0d228ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886145187,
+        "stop" : 1676886146603,
+        "duration" : 1416
+      }
+    } ]
+  },
+  "a3dcf37374ea167fe9bfb794c796f137" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96a491008f97744b",
+      "status" : "failed",
+      "statusDetails" : "Expected status code is not match with actual status code expected [400] but found [200]",
+      "time" : {
+        "start" : 1676886148252,
+        "stop" : 1676886149865,
+        "duration" : 1613
+      }
+    } ]
+  },
+  "e37b449f56c26b1dd0e3d85b27fd18e9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7ebf0f4a2288f02",
+      "status" : "failed",
+      "statusDetails" : "Expected Response is not match with actual Response body expected [{\n    \"code\": 200,\n    \"type\": \"unknown\",\n    \"message\": \"AkilaTest\"\n}] but found [{\n    \"code\": 200,\n    \"type\": \"unknown\",\n    \"message\": \"AkilaTEST\"\n}]",
+      "time" : {
+        "start" : 1676886151577,
+        "stop" : 1676886153061,
+        "duration" : 1484
+      }
+    } ]
+  },
+  "535d23ce810559139233aeb109a0792a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8180bb091af74fa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886115698,
+        "stop" : 1676886117247,
+        "duration" : 1549
+      }
+    } ]
+  },
+  "ab2d5b769a47b9eb1160110b9d97a918" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7ad1622c69bdcb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886076469,
+        "stop" : 1676886081205,
+        "duration" : 4736
+      }
+    } ]
+  },
+  "aca8b960e64d340184cb2f119a63e121" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bffce0c582e894d",
+      "status" : "failed",
+      "statusDetails" : "Expected status code is not match with actual status code expected [404] but found [200]",
+      "time" : {
+        "start" : 1676886140562,
+        "stop" : 1676886142082,
+        "duration" : 1520
+      }
+    } ]
+  },
+  "d7d7d36b9b7e81bbd1d48bd0ab681ef1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50e1f092e29b3530",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"message\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"#\",\"pointer\":\"\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"code\",\"message\",\"type\"]\n    missing: [\"message\"]\n\n  Actual: {\"code\":405,\"type\":\"unknown\"}\n",
+      "time" : {
+        "start" : 1676886127294,
+        "stop" : 1676886128891,
+        "duration" : 1597
+      }
+    } ]
+  },
+  "a125caa051f675790082d57f1c17e3fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a7f4d5caf02a7c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886124109,
+        "stop" : 1676886125704,
+        "duration" : 1595
+      }
+    } ]
+  },
+  "70a62791097a41e1a9ec5fbf8ccb1a4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f9dd64e90a5ede6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886081279,
+        "stop" : 1676886085226,
+        "duration" : 3947
+      }
+    } ]
+  },
+  "d8e4082b047a4ef925b3b3adcb03ef5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2442cac306627064",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886130576,
+        "stop" : 1676886132162,
+        "duration" : 1586
+      }
+    } ]
+  },
+  "9079c62d28ee05331b03911ab4b74a96" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef1f8082aad303ff",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"message\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"#\",\"pointer\":\"\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"code\",\"message\",\"type\"]\n    missing: [\"message\"]\n\n  Actual: {\"code\":405,\"type\":\"unknown\"}\n",
+      "time" : {
+        "start" : 1676886137286,
+        "stop" : 1676886138819,
+        "duration" : 1533
+      }
+    } ]
+  },
+  "23e6a282826f1cc1d595c3bef31f3685" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1796dbe97b6281e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886099092,
+        "stop" : 1676886105206,
+        "duration" : 6114
+      }
+    } ]
+  },
+  "17bd1cd38ecfc9369f3c2e750e76ad4c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "231b67034d3de52f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"message\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"#\",\"pointer\":\"\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"code\",\"message\",\"type\"]\n    missing: [\"message\"]\n\n  Actual: {\"code\":405,\"type\":\"unknown\"}\n",
+      "time" : {
+        "start" : 1676886161267,
+        "stop" : 1676886162693,
+        "duration" : 1426
+      }
+    } ]
+  },
+  "93f4707d840385d50717b855414249ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c679b3cd25727e9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886128911,
+        "stop" : 1676886130512,
+        "duration" : 1601
+      }
+    } ]
+  },
+  "7de7d453b104fff327cbd37c7acafbcc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e6a52f489aa1e74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886143663,
+        "stop" : 1676886145167,
+        "duration" : 1504
+      }
+    } ]
+  },
+  "1192443a0a6c2e7634421f7640ce8e6b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "605fd9ee079a5cee",
+      "status" : "failed",
+      "statusDetails" : "Got exception when trying to validate the schema files",
+      "time" : {
+        "start" : 1676886154919,
+        "stop" : 1676886156529,
+        "duration" : 1610
+      }
+    } ]
+  },
+  "6f91ee42c50a44c49434f8a5ed4a4e00" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e45b6597ac4dfdd",
+      "status" : "failed",
+      "statusDetails" : "Got exception when trying to validate the schema files",
+      "time" : {
+        "start" : 1676886158295,
+        "stop" : 1676886159679,
+        "duration" : 1384
+      }
+    } ]
+  },
+  "5dc962c91f004ca1e61bd81d565c50c0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c36d09ed343cff8",
+      "status" : "failed",
+      "statusDetails" : "Expected Response is not match with actual Response body expected [{\n  \"id\": 122,\n  \"username\": \"AkilaTEST\",\n  \"firstName\": \"Dhanushaka\",\n  \"lastName\": \"Samaranayake\",\n  \"email\": \"akila@email.com\",\n  \"password\": \"testPassword\",\n  \"phone\": \"+94717147499\",\n  \"userStatus\": 1\n}] but found [{\n    \"id\": 122,\n    \"username\": \"AkilaTEST\",\n    \"firstName\": \"Dhanushaka\",\n    \"lastName\": \"Samaranayake\",\n    \"email\": \"akila@email.com\",\n    \"password\": \"testPassword\",\n    \"phone\": \"+94717147499\",\n    \"userStatus\": 1\n}]",
+      "time" : {
+        "start" : 1676886122365,
+        "stop" : 1676886124085,
+        "duration" : 1720
+      }
+    } ]
+  },
+  "617c85db4a301fdb17a379e99b3cddf4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c070587fd3008e4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886066694,
+        "stop" : 1676886072319,
+        "duration" : 5625
+      }
+    } ]
+  },
+  "50f67677aa246f12432b25cf86e285d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "490671081dbbeeb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886072406,
+        "stop" : 1676886076418,
+        "duration" : 4012
+      }
+    } ]
+  },
+  "8dffcc51103698669de116bddf4eb2cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb58df2395c0df73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886056127,
+        "stop" : 1676886066428,
+        "duration" : 10301
+      }
+    } ]
+  },
+  "534ca506ee829459a40284e2f50b0c8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7cf73192de550f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886142101,
+        "stop" : 1676886143640,
+        "duration" : 1539
+      }
+    } ]
+  },
+  "46bd677936926ec193f69ecf188bcfd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d3cc31c7de19974",
+      "status" : "failed",
+      "statusDetails" : "Expected status code is not match with actual status code expected [404] but found [200]",
+      "time" : {
+        "start" : 1676886133920,
+        "stop" : 1676886135530,
+        "duration" : 1610
+      }
+    } ]
+  },
+  "4d41cc6f4e200ec2c668e918720b935c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "751e7a0ad13b9efb",
+      "status" : "failed",
+      "statusDetails" : "Expected status code is not match with actual status code expected [400] but found [405]",
+      "time" : {
+        "start" : 1676886114047,
+        "stop" : 1676886115669,
+        "duration" : 1622
+      }
+    } ]
+  },
+  "95188af46140576c02ea544c549b6223" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd2ac58541f9f90d",
+      "status" : "failed",
+      "statusDetails" : "Expected status code is not match with actual status code expected [400] but found [200]",
+      "time" : {
+        "start" : 1676886118960,
+        "stop" : 1676886120604,
+        "duration" : 1644
+      }
+    } ]
+  },
+  "8157fdd9f6296b55712cb21b5ac3c52e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1884540d961a60e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886105274,
+        "stop" : 1676886112458,
+        "duration" : 7184
+      }
+    } ]
+  },
+  "56a41ec87aa213fa93e144e83818d739" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c47c671d91cd3853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886091818,
+        "stop" : 1676886099070,
+        "duration" : 7252
+      }
+    } ]
+  },
+  "af0831df2d9df5e6df7dd79f39f84c74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e99e425c4accb6bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676886085301,
+        "stop" : 1676886091724,
+        "duration" : 6423
+      }
+    } ]
+  }
+}

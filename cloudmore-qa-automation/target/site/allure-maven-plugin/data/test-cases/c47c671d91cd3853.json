@@ -1,0 +1,318 @@
+{
+  "uid" : "c47c671d91cd3853",
+  "name" : "Verify Search Results have more than 3 items in the list",
+  "fullName" : "Test Search Page page for mobile and desktop size screens with number of items in the list: Verify Search Results have more than 3 items in the list",
+  "historyId" : "56a41ec87aa213fa93e144e83818d739",
+  "time" : {
+    "start" : 1676886091818,
+    "stop" : 1676886099070,
+    "duration" : 7252
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "void com.cloudmore.testSteps.CommonSteps.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1676886091819,
+      "stop" : 1676886091819,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User direct to the Home Page",
+      "time" : {
+        "start" : 1676886091820,
+        "stop" : 1676886093550,
+        "duration" : 1730
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Verify the HomePage availability",
+      "time" : {
+        "start" : 1676886093550,
+        "stop" : 1676886093617,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User Accepts the Cookie Consent",
+      "time" : {
+        "start" : 1676886093617,
+        "stop" : 1676886095762,
+        "duration" : 2145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  Navigate to \"Search\" page from home Page",
+      "time" : {
+        "start" : 1676886095763,
+        "stop" : 1676886095901,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Verify the Search Page availability",
+      "time" : {
+        "start" : 1676886095903,
+        "stop" : 1676886095951,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User set the Web Page resolution into \"DESKTOP\" size",
+      "time" : {
+        "start" : 1676886095952,
+        "stop" : 1676886096202,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User entered \"Azure\" as search keyword on the search text field",
+      "time" : {
+        "start" : 1676886096202,
+        "stop" : 1676886096423,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User click the search button",
+      "time" : {
+        "start" : 1676886096424,
+        "stop" : 1676886098456,
+        "duration" : 2032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Verify that the search results page is available",
+      "time" : {
+        "start" : 1676886098457,
+        "stop" : 1676886098496,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Verifying the Search Page URL After searching \"Azure\"",
+      "time" : {
+        "start" : 1676886098496,
+        "stop" : 1676886098504,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Verifying the Search Page Title After searching \"Azure\"",
+      "time" : {
+        "start" : 1676886098505,
+        "stop" : 1676886098515,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Take a screenshot",
+      "time" : {
+        "start" : 1676886098515,
+        "stop" : 1676886098900,
+        "duration" : 385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eafd6f1e7141ea5c",
+        "name" : "Verify Search Results have more than 3 items in the list",
+        "source" : "eafd6f1e7141ea5c.png",
+        "type" : "image/png",
+        "size" : 135355
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Validate search results have less than 3 items",
+      "time" : {
+        "start" : 1676886098901,
+        "stop" : 1676886099069,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 13
+  },
+  "afterStages" : [ {
+    "name" : "void com.cloudmore.testSteps.CommonSteps.afterScenario()",
+    "time" : {
+      "start" : 1676886099069,
+      "stop" : 1676886099070,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "tag",
+    "value" : "QuestionTwo"
+  }, {
+    "name" : "tag",
+    "value" : "assignment"
+  }, {
+    "name" : "host",
+    "value" : "CLSLLP210006"
+  }, {
+    "name" : "thread",
+    "value" : "23016@CLSLLP210006.TestNG-tests-1(18)"
+  }, {
+    "name" : "feature",
+    "value" : "Test Search Page page for mobile and desktop size screens with number of items in the list"
+  }, {
+    "name" : "story",
+    "value" : "Verify Search Results have more than 3 items in the list"
+  }, {
+    "name" : "suite",
+    "value" : "Test Search Page page for mobile and desktop size screens with number of items in the list"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Search Results have more than 3 items in the list"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Personal.work/my-repos/cloudmore/cloudmore-qa-automation/src/test/resources/featureFiles/Search.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.featureFiles.Search_feature.Test Search Page page for mobile and desktop size screens with number of items in the list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "DEVICE",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "SEARCH_VALUE",
+    "value" : "Azure"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ui", "QuestionTwo", "assignment" ]
+  },
+  "source" : "c47c671d91cd3853.json",
+  "parameterValues" : [ "DESKTOP", "Azure" ]
+}

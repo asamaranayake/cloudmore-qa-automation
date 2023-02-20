@@ -1,0 +1,246 @@
+{
+  "uid" : "e99e425c4accb6bd",
+  "name" : "Verify company logo and menu items are displayed on Pricing Page.",
+  "fullName" : "Company logo and menu items are displayed on next pages: Solutions, Integrations, Resources, Pricing, Company.: Verify company logo and menu items are displayed on Pricing Page.",
+  "historyId" : "af0831df2d9df5e6df7dd79f39f84c74",
+  "time" : {
+    "start" : 1676886085301,
+    "stop" : 1676886091724,
+    "duration" : 6423
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "void com.cloudmore.testSteps.CommonSteps.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1676886085301,
+      "stop" : 1676886085302,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User direct to the Home Page",
+      "time" : {
+        "start" : 1676886085303,
+        "stop" : 1676886087401,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  Navigate to \"Pricing\" page from home Page",
+      "time" : {
+        "start" : 1676886087402,
+        "stop" : 1676886091251,
+        "duration" : 3849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Verify the Pricing Page availability",
+      "time" : {
+        "start" : 1676886091252,
+        "stop" : 1676886091301,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Verifying the Company logo is visible from the Pricing page",
+      "time" : {
+        "start" : 1676886091302,
+        "stop" : 1676886091371,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Verifying the \"Solutions\" Menu link is visible from the Pricing page",
+      "time" : {
+        "start" : 1676886091372,
+        "stop" : 1676886091444,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Verifying the \"Company\" Menu link is visible from the Pricing page",
+      "time" : {
+        "start" : 1676886091445,
+        "stop" : 1676886091517,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Verifying the \"Integrations\" Menu link is visible from the Pricing page",
+      "time" : {
+        "start" : 1676886091519,
+        "stop" : 1676886091590,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Verifying the \"Resources\" Menu link is visible from the Pricing page",
+      "time" : {
+        "start" : 1676886091591,
+        "stop" : 1676886091676,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Verifying the \"Pricing\" Menu link is visible from the Pricing page",
+      "time" : {
+        "start" : 1676886091678,
+        "stop" : 1676886091723,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ {
+    "name" : "void com.cloudmore.testSteps.CommonSteps.afterScenario()",
+    "time" : {
+      "start" : 1676886091723,
+      "stop" : 1676886091724,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "tag",
+    "value" : "QuestionOne"
+  }, {
+    "name" : "tag",
+    "value" : "assignment"
+  }, {
+    "name" : "host",
+    "value" : "CLSLLP210006"
+  }, {
+    "name" : "thread",
+    "value" : "23016@CLSLLP210006.TestNG-tests-1(18)"
+  }, {
+    "name" : "feature",
+    "value" : "Company logo and menu items are displayed on next pages: Solutions, Integrations, Resources, Pricing, Company."
+  }, {
+    "name" : "story",
+    "value" : "Verify company logo and menu items are displayed on Pricing Page."
+  }, {
+    "name" : "suite",
+    "value" : "Company logo and menu items are displayed on next pages: Solutions, Integrations, Resources, Pricing, Company."
+  }, {
+    "name" : "testClass",
+    "value" : "Verify company logo and menu items are displayed on Pricing Page."
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Personal.work/my-repos/cloudmore/cloudmore-qa-automation/src/test/resources/featureFiles/CompanyLogAndMenuItem.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.featureFiles.CompanyLogAndMenuItem_feature.Company logo and menu items are displayed on next pages: Solutions, Integrations, Resources, Pricing, Company."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "QuestionOne", "ui", "assignment" ]
+  },
+  "source" : "e99e425c4accb6bd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected status code is not match with actual status code expected [400] but found [405]",
+      "children" : [ {
+        "name" : "Verifying the CREATE USER API postUser_BodyDefined_Is_No",
+        "uid" : "751e7a0ad13b9efb",
+        "parentUid" : "599960e0b97d50f78ea456127b439588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886114047,
+          "stop" : 1676886115669,
+          "duration" : 1622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "postUser_BodyDefined_Is_No" ]
+      } ],
+      "uid" : "599960e0b97d50f78ea456127b439588"
+    }, {
+      "name" : "Expected status code is not match with actual status code expected [400] but found [200]",
+      "children" : [ {
+        "name" : "Verifying the CREATE USER API postUser_BodyApplicationJsonValueProperties_Are_Null",
+        "uid" : "bd2ac58541f9f90d",
+        "parentUid" : "7fab3679c992e8cfe182a244bf87be46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886118960,
+          "stop" : 1676886120604,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "postUser_BodyApplicationJsonValueProperties_Are_Null" ]
+      }, {
+        "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Are_null",
+        "uid" : "96a491008f97744b",
+        "parentUid" : "7fab3679c992e8cfe182a244bf87be46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886148252,
+          "stop" : 1676886149865,
+          "duration" : 1613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_valid_Username_BodyApplicationJsonType_Are_null" ]
+      } ],
+      "uid" : "7fab3679c992e8cfe182a244bf87be46"
+    }, {
+      "name" : "Expected Response is not match with actual Response body expected [{\n  \"id\": 122,\n  \"username\": \"AkilaTEST\",\n  \"firstName\": \"Dhanushaka\",\n  \"lastName\": \"Samaranayake\",\n  \"email\": \"akila@email.com\",\n  \"password\": \"testPassword\",\n  \"phone\": \"+94717147499\",\n  \"userStatus\": 1\n}] but found [{\n    \"id\": 122,\n    \"username\": \"AkilaTEST\",\n    \"firstName\": \"Dhanushaka\",\n    \"lastName\": \"Samaranayake\",\n    \"email\": \"akila@email.com\",\n    \"password\": \"testPassword\",\n    \"phone\": \"+94717147499\",\n    \"userStatus\": 1\n}]",
+      "children" : [ {
+        "name" : "Verifying the GET USER API getUser_valid_usernameDefined_Is_Yes",
+        "uid" : "1c36d09ed343cff8",
+        "parentUid" : "8890716723b143c15147dd93171ac4e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886122365,
+          "stop" : 1676886124085,
+          "duration" : 1720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "getUser_valid_usernameDefined_Is_Yes" ]
+      } ],
+      "uid" : "8890716723b143c15147dd93171ac4e4"
+    }, {
+      "name" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"message\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"#\",\"pointer\":\"\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"code\",\"message\",\"type\"]\n    missing: [\"message\"]\n\n  Actual: {\"code\":405,\"type\":\"unknown\"}\n",
+      "children" : [ {
+        "name" : "Verifying the GET USER API getUser_username_Is_Null",
+        "uid" : "50e1f092e29b3530",
+        "parentUid" : "be685021a7759138f912d6396b466a39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886127294,
+          "stop" : 1676886128891,
+          "duration" : 1597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "getUser_username_Is_Null" ]
+      }, {
+        "name" : "Verifying the UPDATE USER API putUser_username_Is_Null_validBodyDefined_Is_Yes",
+        "uid" : "ef1f8082aad303ff",
+        "parentUid" : "be685021a7759138f912d6396b466a39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886137286,
+          "stop" : 1676886138819,
+          "duration" : 1533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_username_Is_Null_validBodyDefined_Is_Yes" ]
+      }, {
+        "name" : "Verifying the DELETE USER API deleteUser_username_Is_Null",
+        "uid" : "231b67034d3de52f",
+        "parentUid" : "be685021a7759138f912d6396b466a39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886161267,
+          "stop" : 1676886162693,
+          "duration" : 1426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_username_Is_Null" ]
+      } ],
+      "uid" : "be685021a7759138f912d6396b466a39"
+    }, {
+      "name" : "Expected status code is not match with actual status code expected [404] but found [200]",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_invalid_Username_validBodyDefined_Is_Yes",
+        "uid" : "6d3cc31c7de19974",
+        "parentUid" : "dd4bddda33877d20ac1e9bff00bb4843",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886133920,
+          "stop" : 1676886135530,
+          "duration" : 1610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_invalid_Username_validBodyDefined_Is_Yes" ]
+      }, {
+        "name" : "Verifying the UPDATE USER API putUser_username_with_special_Characters_validBodyDefined_Is_Yes",
+        "uid" : "bffce0c582e894d",
+        "parentUid" : "dd4bddda33877d20ac1e9bff00bb4843",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886140562,
+          "stop" : 1676886142082,
+          "duration" : 1520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_username_with_special_Characters_validBodyDefined_Is_Yes" ]
+      } ],
+      "uid" : "dd4bddda33877d20ac1e9bff00bb4843"
+    }, {
+      "name" : "Expected Response is not match with actual Response body expected [{\n    \"code\": 200,\n    \"type\": \"unknown\",\n    \"message\": \"AkilaTest\"\n}] but found [{\n    \"code\": 200,\n    \"type\": \"unknown\",\n    \"message\": \"AkilaTEST\"\n}]",
+      "children" : [ {
+        "name" : "Verifying the DELETE USER API deleteUser_valid_userNameDefined_isYes",
+        "uid" : "b7ebf0f4a2288f02",
+        "parentUid" : "727bf32dd8d1eb1e05eb28a95e082ea1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886151577,
+          "stop" : 1676886153061,
+          "duration" : 1484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_valid_userNameDefined_isYes" ]
+      } ],
+      "uid" : "727bf32dd8d1eb1e05eb28a95e082ea1"
+    }, {
+      "name" : "Got exception when trying to validate the schema files",
+      "children" : [ {
+        "name" : "Verifying the DELETE USER API deleteUser_invalid_UsernameDefined_Is_Yes",
+        "uid" : "605fd9ee079a5cee",
+        "parentUid" : "03a84e96772cd599457b8833b84ebef9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886154919,
+          "stop" : 1676886156529,
+          "duration" : 1610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_invalid_UsernameDefined_Is_Yes" ]
+      }, {
+        "name" : "Verifying the DELETE USER API deleteUser_invalid_usernameDefined_Is_Yes_with_special_characters",
+        "uid" : "8e45b6597ac4dfdd",
+        "parentUid" : "03a84e96772cd599457b8833b84ebef9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886158295,
+          "stop" : 1676886159679,
+          "duration" : 1384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_invalid_usernameDefined_Is_Yes_with_special_characters" ]
+      } ],
+      "uid" : "03a84e96772cd599457b8833b84ebef9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [TestSuite-Cloudmore Automation Assignment]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.cloudmore.listener.TestRetryAnalyzerListener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Cloudmore Test Automation Assignment 1(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cloudmore.runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearUp"/>
+          <include name="runScenario" invocation-numbers="9 9 11 11 12 12 14 14 17 17 18 18 19 19 23 23 24 24 25 25 26 26 27 27"/>
+          <include name="tearDownClass"/>
+          <include name="tearDown"/>
+          <include name="beforeClassMethods"/>
+        </methods>
+      </class> <!-- com.cloudmore.runner.TestRunner -->
+    </classes>
+  </test> <!-- Cloudmore Test Automation Assignment 1(failed) -->
+</suite> <!-- Failed suite [TestSuite-Cloudmore Automation Assignment] -->

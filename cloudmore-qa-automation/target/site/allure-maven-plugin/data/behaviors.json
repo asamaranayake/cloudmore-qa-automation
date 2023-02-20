@@ -1,0 +1,489 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Company logo and menu items are displayed on next pages: Solutions, Integrations, Resources, Pricing, Company.",
+    "children" : [ {
+      "name" : "Verify company logo and menu items are displayed on Home Page.",
+      "children" : [ {
+        "name" : "Verify company logo and menu items are displayed on Home Page.",
+        "uid" : "bb58df2395c0df73",
+        "parentUid" : "6583f21876fad4c18980486eaa970d53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886056127,
+          "stop" : 1676886066428,
+          "duration" : 10301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6583f21876fad4c18980486eaa970d53"
+    }, {
+      "name" : "Verify company logo and menu items are displayed on Solutions Page.",
+      "children" : [ {
+        "name" : "Verify company logo and menu items are displayed on Solutions Page.",
+        "uid" : "c070587fd3008e4e",
+        "parentUid" : "4c503510729eabcac4ae175a9e195d6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886066694,
+          "stop" : 1676886072319,
+          "duration" : 5625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c503510729eabcac4ae175a9e195d6e"
+    }, {
+      "name" : "Verify company logo and menu items are displayed on Company Page.",
+      "children" : [ {
+        "name" : "Verify company logo and menu items are displayed on Company Page.",
+        "uid" : "490671081dbbeeb3",
+        "parentUid" : "fb22088255c775cdf94b7ca38f9231a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886072406,
+          "stop" : 1676886076418,
+          "duration" : 4012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb22088255c775cdf94b7ca38f9231a3"
+    }, {
+      "name" : "Verify company logo and menu items are displayed on Integrations Page.",
+      "children" : [ {
+        "name" : "Verify company logo and menu items are displayed on Integrations Page.",
+        "uid" : "a7ad1622c69bdcb3",
+        "parentUid" : "9f8ef2663303517618b10292eb037892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886076469,
+          "stop" : 1676886081205,
+          "duration" : 4736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f8ef2663303517618b10292eb037892"
+    }, {
+      "name" : "Verify company logo and menu items are displayed on Resources Page.",
+      "children" : [ {
+        "name" : "Verify company logo and menu items are displayed on Resources Page.",
+        "uid" : "8f9dd64e90a5ede6",
+        "parentUid" : "3c6c947db80877282b5894e0b5537e31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886081279,
+          "stop" : 1676886085226,
+          "duration" : 3947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c6c947db80877282b5894e0b5537e31"
+    }, {
+      "name" : "Verify company logo and menu items are displayed on Pricing Page.",
+      "children" : [ {
+        "name" : "Verify company logo and menu items are displayed on Pricing Page.",
+        "uid" : "e99e425c4accb6bd",
+        "parentUid" : "87ce1cf343562a74ed79ea2fa2bfae05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886085301,
+          "stop" : 1676886091724,
+          "duration" : 6423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87ce1cf343562a74ed79ea2fa2bfae05"
+    } ],
+    "uid" : "0193999276f7639722615e3051905deb"
+  }, {
+    "name" : "Test Search Page page for mobile and desktop size screens with number of items in the list",
+    "children" : [ {
+      "name" : "Verify Search Results have more than 3 items in the list",
+      "children" : [ {
+        "name" : "Verify Search Results have more than 3 items in the list",
+        "uid" : "c47c671d91cd3853",
+        "parentUid" : "bbfe18ae5c787849f50ab8f7022b4fac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886091818,
+          "stop" : 1676886099070,
+          "duration" : 7252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "DESKTOP", "Azure" ]
+      }, {
+        "name" : "Verify Search Results have more than 3 items in the list",
+        "uid" : "f1796dbe97b6281e",
+        "parentUid" : "bbfe18ae5c787849f50ab8f7022b4fac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886099092,
+          "stop" : 1676886105206,
+          "duration" : 6114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "MOBILE", "Azure" ]
+      } ],
+      "uid" : "bbfe18ae5c787849f50ab8f7022b4fac"
+    } ],
+    "uid" : "892fd6b0abe290a02de4e34300bc341d"
+  }, {
+    "name" : "Verify The CREATE , UPDATE, GET, DELETE APIs of User Service",
+    "children" : [ {
+      "name" : "Verifying the CREATE USER API postUser_valid_BodyDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the CREATE USER API postUser_valid_BodyDefined_Is_Yes",
+        "uid" : "1884540d961a60e9",
+        "parentUid" : "59f089b4be4227ae3ed2216ade4d8ed3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886105274,
+          "stop" : 1676886112458,
+          "duration" : 7184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "postUser_valid_BodyDefined_Is_Yes" ]
+      } ],
+      "uid" : "59f089b4be4227ae3ed2216ade4d8ed3"
+    }, {
+      "name" : "Verifying the CREATE USER API postUser_BodyDefined_Is_No",
+      "children" : [ {
+        "name" : "Verifying the CREATE USER API postUser_BodyDefined_Is_No",
+        "uid" : "751e7a0ad13b9efb",
+        "parentUid" : "46e17c03f17f5f7aeebda7f03ada8625",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886114047,
+          "stop" : 1676886115669,
+          "duration" : 1622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "postUser_BodyDefined_Is_No" ]
+      } ],
+      "uid" : "46e17c03f17f5f7aeebda7f03ada8625"
+    }, {
+      "name" : "Verifying the CREATE USER API postUser_BodyApplicationJsonType_Is_NotObject",
+      "children" : [ {
+        "name" : "Verifying the CREATE USER API postUser_BodyApplicationJsonType_Is_NotObject",
+        "uid" : "8180bb091af74fa5",
+        "parentUid" : "256408abafef2622539bb95b5179250d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886115698,
+          "stop" : 1676886117247,
+          "duration" : 1549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "postUser_BodyApplicationJsonType_Is_NotObject" ]
+      } ],
+      "uid" : "256408abafef2622539bb95b5179250d"
+    }, {
+      "name" : "Verifying the CREATE USER API postUser_BodyApplicationJsonValueProperties_Are_Null",
+      "children" : [ {
+        "name" : "Verifying the CREATE USER API postUser_BodyApplicationJsonValueProperties_Are_Null",
+        "uid" : "bd2ac58541f9f90d",
+        "parentUid" : "5b6f96397336d3fa52fababe90bd47b6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886118960,
+          "stop" : 1676886120604,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "postUser_BodyApplicationJsonValueProperties_Are_Null" ]
+      } ],
+      "uid" : "5b6f96397336d3fa52fababe90bd47b6"
+    }, {
+      "name" : "Verifying the GET USER API getUser_valid_usernameDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the GET USER API getUser_valid_usernameDefined_Is_Yes",
+        "uid" : "1c36d09ed343cff8",
+        "parentUid" : "24c5348223e4d75a4729e460e4aac148",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886122365,
+          "stop" : 1676886124085,
+          "duration" : 1720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "getUser_valid_usernameDefined_Is_Yes" ]
+      } ],
+      "uid" : "24c5348223e4d75a4729e460e4aac148"
+    }, {
+      "name" : "Verifying the GET USER API getUser_invalid_usernameDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the GET USER API getUser_invalid_usernameDefined_Is_Yes",
+        "uid" : "9a7f4d5caf02a7c4",
+        "parentUid" : "a82403c0275d9c0f79dd34c51c2aba0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886124109,
+          "stop" : 1676886125704,
+          "duration" : 1595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "getUser_invalid_usernameDefined_Is_Yes" ]
+      } ],
+      "uid" : "a82403c0275d9c0f79dd34c51c2aba0a"
+    }, {
+      "name" : "Verifying the GET USER API getUser_username_Is_Null",
+      "children" : [ {
+        "name" : "Verifying the GET USER API getUser_username_Is_Null",
+        "uid" : "50e1f092e29b3530",
+        "parentUid" : "52ddde506fd6b0115b4bfd765b084d1e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886127294,
+          "stop" : 1676886128891,
+          "duration" : 1597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "getUser_username_Is_Null" ]
+      } ],
+      "uid" : "52ddde506fd6b0115b4bfd765b084d1e"
+    }, {
+      "name" : "Verifying the GET USER API getUser_invalid_usernameDefined_Is_Yes_with_special_characters",
+      "children" : [ {
+        "name" : "Verifying the GET USER API getUser_invalid_usernameDefined_Is_Yes_with_special_characters",
+        "uid" : "c679b3cd25727e9a",
+        "parentUid" : "f248f6f74f1c4eb8a57bb6513fd01daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886128911,
+          "stop" : 1676886130512,
+          "duration" : 1601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "getUser_invalid_usernameDefined_Is_Yes_with_special_characters" ]
+      } ],
+      "uid" : "f248f6f74f1c4eb8a57bb6513fd01daf"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_valid_Username_validBodyDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_valid_Username_validBodyDefined_Is_Yes",
+        "uid" : "2442cac306627064",
+        "parentUid" : "501d9e9f6dd4b52c3897cea63ef2e230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886130576,
+          "stop" : 1676886132162,
+          "duration" : 1586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_valid_Username_validBodyDefined_Is_Yes" ]
+      } ],
+      "uid" : "501d9e9f6dd4b52c3897cea63ef2e230"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_invalid_Username_validBodyDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_invalid_Username_validBodyDefined_Is_Yes",
+        "uid" : "6d3cc31c7de19974",
+        "parentUid" : "da01e16f38007bcc8b12cf6927cc5c1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886133920,
+          "stop" : 1676886135530,
+          "duration" : 1610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_invalid_Username_validBodyDefined_Is_Yes" ]
+      } ],
+      "uid" : "da01e16f38007bcc8b12cf6927cc5c1c"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_username_Is_Null_validBodyDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_username_Is_Null_validBodyDefined_Is_Yes",
+        "uid" : "ef1f8082aad303ff",
+        "parentUid" : "845ea3bfac1ab014b88417c53c5bcb34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886137286,
+          "stop" : 1676886138819,
+          "duration" : 1533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_username_Is_Null_validBodyDefined_Is_Yes" ]
+      } ],
+      "uid" : "845ea3bfac1ab014b88417c53c5bcb34"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_username_with_special_Characters_validBodyDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_username_with_special_Characters_validBodyDefined_Is_Yes",
+        "uid" : "bffce0c582e894d",
+        "parentUid" : "e9b51a5db0fc241044e4014f8c663534",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886140562,
+          "stop" : 1676886142082,
+          "duration" : 1520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_username_with_special_Characters_validBodyDefined_Is_Yes" ]
+      } ],
+      "uid" : "e9b51a5db0fc241044e4014f8c663534"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyDefined_Is_No",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyDefined_Is_No",
+        "uid" : "c7cf73192de550f7",
+        "parentUid" : "de27c1269dcb2aef4a873f166bb3d14a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886142101,
+          "stop" : 1676886143640,
+          "duration" : 1539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_valid_Username_BodyDefined_Is_No" ]
+      } ],
+      "uid" : "de27c1269dcb2aef4a873f166bb3d14a"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_invalid_Username_BodyDefined_Is_No",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_invalid_Username_BodyDefined_Is_No",
+        "uid" : "9e6a52f489aa1e74",
+        "parentUid" : "389f712b7cfd80a9bee49c40b45acb7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886143663,
+          "stop" : 1676886145167,
+          "duration" : 1504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_invalid_Username_BodyDefined_Is_No" ]
+      } ],
+      "uid" : "389f712b7cfd80a9bee49c40b45acb7d"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Is_NotObject",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Is_NotObject",
+        "uid" : "7db3fe56c0d228ed",
+        "parentUid" : "6f74a3b229d219bbe6dab5cb5ee402be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676886145187,
+          "stop" : 1676886146603,
+          "duration" : 1416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_valid_Username_BodyApplicationJsonType_Is_NotObject" ]
+      } ],
+      "uid" : "6f74a3b229d219bbe6dab5cb5ee402be"
+    }, {
+      "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Are_null",
+      "children" : [ {
+        "name" : "Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Are_null",
+        "uid" : "96a491008f97744b",
+        "parentUid" : "ca33990fe331825870d6022568c3af13",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886148252,
+          "stop" : 1676886149865,
+          "duration" : 1613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "putUser_valid_Username_BodyApplicationJsonType_Are_null" ]
+      } ],
+      "uid" : "ca33990fe331825870d6022568c3af13"
+    }, {
+      "name" : "Verifying the DELETE USER API deleteUser_valid_userNameDefined_isYes",
+      "children" : [ {
+        "name" : "Verifying the DELETE USER API deleteUser_valid_userNameDefined_isYes",
+        "uid" : "b7ebf0f4a2288f02",
+        "parentUid" : "ef7395e18786c4308f2a04fccab9c0bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886151577,
+          "stop" : 1676886153061,
+          "duration" : 1484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_valid_userNameDefined_isYes" ]
+      } ],
+      "uid" : "ef7395e18786c4308f2a04fccab9c0bd"
+    }, {
+      "name" : "Verifying the DELETE USER API deleteUser_invalid_UsernameDefined_Is_Yes",
+      "children" : [ {
+        "name" : "Verifying the DELETE USER API deleteUser_invalid_UsernameDefined_Is_Yes",
+        "uid" : "605fd9ee079a5cee",
+        "parentUid" : "7a05f9db509ca2924c3851a77f6e286b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886154919,
+          "stop" : 1676886156529,
+          "duration" : 1610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_invalid_UsernameDefined_Is_Yes" ]
+      } ],
+      "uid" : "7a05f9db509ca2924c3851a77f6e286b"
+    }, {
+      "name" : "Verifying the DELETE USER API deleteUser_invalid_usernameDefined_Is_Yes_with_special_characters",
+      "children" : [ {
+        "name" : "Verifying the DELETE USER API deleteUser_invalid_usernameDefined_Is_Yes_with_special_characters",
+        "uid" : "8e45b6597ac4dfdd",
+        "parentUid" : "59abfb9d6ab2cd70b0b58b09c802ff00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886158295,
+          "stop" : 1676886159679,
+          "duration" : 1384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_invalid_usernameDefined_Is_Yes_with_special_characters" ]
+      } ],
+      "uid" : "59abfb9d6ab2cd70b0b58b09c802ff00"
+    }, {
+      "name" : "Verifying the DELETE USER API deleteUser_username_Is_Null",
+      "children" : [ {
+        "name" : "Verifying the DELETE USER API deleteUser_username_Is_Null",
+        "uid" : "231b67034d3de52f",
+        "parentUid" : "7c00ae5dc038da338f0486f902703f1b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676886161267,
+          "stop" : 1676886162693,
+          "duration" : 1426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "deleteUser_username_Is_Null" ]
+      } ],
+      "uid" : "7c00ae5dc038da338f0486f902703f1b"
+    } ],
+    "uid" : "03dd8511df23d2e14244016262dd26f3"
+  } ]
+}

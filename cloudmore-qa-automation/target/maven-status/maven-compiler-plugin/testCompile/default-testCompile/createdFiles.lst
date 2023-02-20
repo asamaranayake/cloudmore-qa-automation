@@ -1,0 +1,16 @@
+com\cloudmore\listener\DryRunPlugin.class
+com\cloudmore\testSteps\ui\CompanyPageTestSteps.class
+com\cloudmore\listener\ScreenShotListener.class
+com\cloudmore\testSteps\ui\SearchPageTestSteps.class
+com\cloudmore\runner\TestRunner.class
+com\cloudmore\listener\TestRetryAnalyzer.class
+com\cloudmore\testSteps\ui\IntegrationsPageTestSteps.class
+com\cloudmore\testSteps\ui\SolutionsPageTestSteps.class
+com\cloudmore\data\TestDataManager.class
+com\cloudmore\testSteps\CommonSteps.class
+com\cloudmore\listener\TestRetryAnalyzerListener.class
+com\cloudmore\testSteps\api\UserServiceSteps.class
+com\cloudmore\testSteps\ui\ResourcesPageTestSteps.class
+com\cloudmore\testSteps\api\ComCloudmoreTest.class
+com\cloudmore\testSteps\ui\HomePageTestSteps.class
+com\cloudmore\testSteps\ui\PricingPageTestSteps.class

@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "03dd8511df23d2e14244016262dd26f3",
+    "name" : "Verify The CREATE , UPDATE, GET, DELETE APIs of User Service",
+    "statistic" : {
+      "failed" : 12,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 20
+    }
+  }, {
+    "uid" : "0193999276f7639722615e3051905deb",
+    "name" : "Company logo and menu items are displayed on next pages: Solutions, Integrations, Resources, Pricing, Company.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "892fd6b0abe290a02de4e34300bc341d",
+    "name" : "Test Search Page page for mobile and desktop size screens with number of items in the list",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

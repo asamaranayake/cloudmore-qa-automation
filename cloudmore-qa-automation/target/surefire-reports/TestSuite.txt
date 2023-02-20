@@ -1,0 +1,122 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 12, Errors: 0, Skipped: 12, Time elapsed: 120.054 s <<< FAILURE! - in TestSuite
+com.cloudmore.runner.TestRunner.runScenario["Verifying the CREATE USER API postUser_BodyDefined_Is_No", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](11)  Time elapsed: 1.636 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code is not match with actual status code expected [400] but found [405]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the CREATE USER API postUser_BodyApplicationJsonValueProperties_Are_Null", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](14)  Time elapsed: 1.666 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code is not match with actual status code expected [400] but found [200]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the GET USER API getUser_valid_usernameDefined_Is_Yes", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](16)  Time elapsed: 1.707 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected Response is not match with actual Response body expected [{
+  "id": 122,
+  "username": "AkilaTEST",
+  "firstName": "Dhanushaka",
+  "lastName": "Samaranayake",
+  "email": "akila@email.com",
+  "password": "testPassword",
+  "phone": "+94717147499",
+  "userStatus": 1
+}] but found [{
+    "id": 122,
+    "username": "AkilaTEST",
+    "firstName": "Dhanushaka",
+    "lastName": "Samaranayake",
+    "email": "akila@email.com",
+    "password": "testPassword",
+    "phone": "+94717147499",
+    "userStatus": 1
+}]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the GET USER API getUser_username_Is_Null", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](19)  Time elapsed: 1.636 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["message"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["code","message","type"]
+    missing: ["message"]
+
+  Actual: {"code":405,"type":"unknown"}
+
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the UPDATE USER API putUser_invalid_Username_validBodyDefined_Is_Yes", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](23)  Time elapsed: 1.634 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code is not match with actual status code expected [404] but found [200]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the UPDATE USER API putUser_username_Is_Null_validBodyDefined_Is_Yes", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](25)  Time elapsed: 1.555 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["message"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["code","message","type"]
+    missing: ["message"]
+
+  Actual: {"code":405,"type":"unknown"}
+
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the UPDATE USER API putUser_username_with_special_Characters_validBodyDefined_Is_Yes", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](27)  Time elapsed: 1.543 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code is not match with actual status code expected [404] but found [200]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the UPDATE USER API putUser_valid_Username_BodyApplicationJsonType_Are_null", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](32)  Time elapsed: 1.629 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code is not match with actual status code expected [400] but found [200]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the DELETE USER API deleteUser_valid_userNameDefined_isYes", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](34)  Time elapsed: 1.507 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected Response is not match with actual Response body expected [{
+    "code": 200,
+    "type": "unknown",
+    "message": "AkilaTest"
+}] but found [{
+    "code": 200,
+    "type": "unknown",
+    "message": "AkilaTEST"
+}]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the DELETE USER API deleteUser_invalid_UsernameDefined_Is_Yes", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](36)  Time elapsed: 1.564 s  <<< FAILURE!
+java.lang.AssertionError: Got exception when trying to validate the schema files
+Caused by: io.restassured.module.jsv.JsonSchemaValidationException: 
+com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the DELETE USER API deleteUser_invalid_usernameDefined_Is_Yes_with_special_characters", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](38)  Time elapsed: 1.416 s  <<< FAILURE!
+java.lang.AssertionError: Got exception when trying to validate the schema files
+Caused by: io.restassured.module.jsv.JsonSchemaValidationException: 
+com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+
+com.cloudmore.runner.TestRunner.runScenario["Verifying the DELETE USER API deleteUser_username_Is_Null", "Optional[Verify The CREATE , UPDATE, GET, DELETE APIs of User Service]"](40)  Time elapsed: 1.442 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["message"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["code","message","type"]
+    missing: ["message"]
+
+  Actual: {"code":405,"type":"unknown"}
+
+
