@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite-Cloudmore Automation Assignment" thread-count="1" parallel="tests">
+
+    <listeners>
+        <listener class-name="com.cloudmore.listener.TestRetryAnalyzerListener"/>
+    </listeners>
+
+    <!-- TO generate Extent Report for UI Automation Please run TestNG.XML Otherwise cucumber Report only executed -->
+    <test name="Cloudmore Test Automation Assignment 1">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.cloudmore.runner.TestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
